@@ -12,12 +12,6 @@
 			}); 
 			/*END PRELOADER JS*/
 				
-			// jQuery Lightbox
-			jQuery('.lightbox').venobox({
-				numeratio: true,
-				infinigall: true
-			});	
-			
 			
 			$(window).scroll(function() {
 				
@@ -92,73 +86,10 @@
 			/*END PROGRESS-BAR JS*/
 			
 	
-			// jQuery MixItUp
-			$('.portfolio_item').mixItUp({
-		
-			});	
-			
-		
-			// Testimonials slider 
-			$('.test_slide_area').owlCarousel({
-				loop:true,	
-				autoplay:true,			
-				autoplay:true,
-				nav:true,
-				navText: ["<i class='ti-arrow-left'>", "<i class='ti-arrow-right'>"],
-				margin: 0,
-				dots: false,
-				responsive:{
-					0:{
-						items:1
-					},
-					600:{
-						items:1
-					},
-					1000:{
-						items:1
-					}
-				}
-			})
-					
-			// client slider 
-			$('.client_slide_area').owlCarousel({
-				loop:true,	
-				autoplay:true,			
-				autoplay:true,
-				margin: 80,
-				responsive:{
-					0:{
-						items:2
-					},
-					600:{
-						items:4
-					},
-					1000:{
-						items:5
-					}
-				}
-			})
-			
-			
-			// Counter 
-			$('.counter').counterUp({
-				delay: 10,
-				time: 1000
-			});
-
 			
 		})
 
 
-		 $('.video-popup').venobox({
-			framewidth: '700px',        // default: ''
-			frameheight: '450px',       // default: ''
-			border: '10px',             // default: '0'
-			bgcolor: '#000',         // default: '#fff'
-			titleattr: 'data-title',    // default: 'title'
-			numeratio: true,            // default: false
-			infinigall: true            // default: false
-		});
 
 	// WOW
 	new WOW().init();
