@@ -1,0 +1,44 @@
+#style-switcher h2 a { background: #ff4b36 none repeat scroll 0 0 ;}
+
+.double-bounce1, 
+.double-bounce2{
+	background-color: #ff4b36;
+}
+#header .nav > li.current > a, 
+#header.menu-shrink .nav > li.current a, 
+#header.menu-shrink .nav > li > a:hover,
+.nav > li > a:hover,
+.slider_content h1,
+.vide_btn,
+.serviceBox i,
+.sing_resume_title i,
+.single_post .post-title > a:hover, 
+.single_post .post-title > a:focus,
+.single_post .post-bar i,
+.vide_btn:hover,
+.vide_btn:focus {
+	color: #ff4b36;
+}
+.main-btn,
+.test_slide_area .owl-nav .owl-prev, 
+.test_slide_area .owl-nav .owl-next{
+	border-color: #ff4b36;
+	color: #ff4b36;
+}
+.main-btn:hover,
+.main-btn:focus{
+	background-color: #ff4b36;
+	border-color: #ff4b36;
+}
+.progress-bar > span,
+.ser-number,
+.portfolio_filter .active,
+.single_portfolio .port-box-content:before,
+.testimonial:before,
+.single_con i,
+.footer_social_icons a:hover,
+#topcontrol,
+#topcontrol:hover,
+.mean-container .mean-nav ul li a:hover{
+	background: #ff4b36;
+}
