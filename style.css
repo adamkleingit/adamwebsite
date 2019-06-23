@@ -181,7 +181,7 @@ ul {
 	margin-bottom: 20px;
 	display: inline-block;
 	letter-spacing: 2px;
-	background-image: url(img/title-bg.png);
+	background-image: url(img/title-bg.webp);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -343,7 +343,7 @@ ul {
 .banner-image:after{
 	position: absolute;
 	content: '';
-	background-image: url(img/banner-img-shape.png);
+	background-image: url(img/banner-img-shape.webp);
 	left: -9%;
 	bottom: 7%;
 	width: 550px;
@@ -518,7 +518,7 @@ ul {
 }
 
 #service_area {
-	background-image: url(img/service-bg.png);
+	background-image: url(img/service-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 30px;
@@ -536,6 +536,19 @@ ul {
 	border-radius: 4px;
 	transition: .5s;
 	box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.03);
+}
+.serviceBox img {
+	width: 25px;
+	float: left;
+	margin-top: 1px;
+	margin-right: 9px;
+}
+.serviceBox img.tree-icon {
+	margin-top: -1px;
+	margin-right: 5px;
+}
+.serviceBox  .description {
+	height: 56px;
 }
 .ser-number{
 	position: absolute;
@@ -594,7 +607,7 @@ ul {
 	position: relative;
 	color: #fff;
 	padding: 100px 0 70px;
-	background-image: url(img/counter-bg.jpg);
+	background-image: url(img/counter-bg.webp);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -765,7 +778,7 @@ ul {
 /*----- Resume css -----*/
 
 #resume_area{
-	background-image: url(img/resume-bg.png);
+	background-image: url(img/resume-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -921,7 +934,7 @@ ul {
 /*----- Blog -----*/
 
 #blog_area{	
-	background-image: url(img/service-bg.png);
+	background-image: url(img/service-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 180px;
