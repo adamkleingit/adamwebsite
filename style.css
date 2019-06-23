@@ -356,8 +356,8 @@ ul {
 .slider_content{
 	padding: 33% 0 10% 7%;
 }
-
 .slider_content h1 {
+	height: 141px;
 	display: block;
 	font-size: 48px;
 	font-weight: 700;
@@ -548,7 +548,7 @@ ul {
 	margin-right: 5px;
 }
 .serviceBox  .description {
-	height: 56px;
+	min-height: 56px;
 }
 .ser-number{
 	position: absolute;
