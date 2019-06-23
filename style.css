@@ -33,6 +33,9 @@ Version      : 1.0
 
 /* Glacial Indifference Regular*/
 @font-face {
+  font-display: auto;
+
+
     font-family: 'glacial_indifferenceregular';
     src: url('fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
          url('fonts/glacialindifference-regular-webfont.woff') format('woff');
@@ -43,6 +46,8 @@ Version      : 1.0
 /* Glacial Indifference Bold*/
 
 @font-face {
+  font-display: auto;
+
     font-family: 'glacial_indifferencebold';
     src: url('fonts/glacialindifference-bold-webfont.woff2') format('woff2'),
          url('fonts/glacialindifference-bold-webfont.woff') format('woff');
