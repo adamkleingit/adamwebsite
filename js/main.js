@@ -85,23 +85,26 @@
 			});
 			/*END PROGRESS-BAR JS*/
 			
+			// WOW
+			new WOW().init();
+		
+			// Typed
+			setTimeout(() => {
+
+				$(".typed").each(function() {
+					var $this = $(this);
+					$this.typed({
+						strings: $this.attr('data-elements').split(','),
+						typeSpeed: 20,
+						backDelay: 1000
+					});
+				});
+			}, 1000);
 	
 			
 		})
 
 
 
-	// WOW
-	new WOW().init();
-	
-	// Typed
-	$(".typed").each(function() {
-		var $this = $(this);
-		$this.typed({
-			strings: $this.attr('data-elements').split(','),
-			typeSpeed: 20,
-			backDelay: 1000
-		});
-	});
 		
 })(jQuery);	
