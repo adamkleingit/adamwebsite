@@ -172,6 +172,12 @@ ul {
 .section_title{
 	margin-bottom: 50px;
 }
+.webp .section_title h2 {
+	background-image: url(img/title-bg.webp);
+}
+.no-webp .section_title h2 {
+	background-image: url(img/title-bg.png);
+}
 .section_title h2 {
 	position: relative;
 	text-transform: capitalize;
@@ -181,7 +187,6 @@ ul {
 	margin-bottom: 20px;
 	display: inline-block;
 	letter-spacing: 2px;
-	background-image: url(img/title-bg.webp);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -340,10 +345,15 @@ ul {
 	display: block;
 	z-index: 9;
 }
+.webp .banner-image:after{
+	background-image: url(img/banner-img-shape.webp);
+}
+.no-webp .banner-image:after{
+	background-image: url(img/banner-img-shape.png);
+}
 .banner-image:after{
 	position: absolute;
 	content: '';
-	background-image: url(img/banner-img-shape.webp);
 	left: -9%;
 	bottom: 7%;
 	width: 550px;
@@ -517,8 +527,13 @@ ul {
 	background: #f7faff;
 }
 
-#service_area {
+.webp #service_area {
 	background-image: url(img/service-bg.webp);
+}
+.no-webp #service_area {
+	background-image: url(img/service-bg.png);
+}
+#service_area {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 30px;
@@ -603,11 +618,16 @@ ul {
 
 /*----- Counter  -----*/
 
+.webp #counter_area{	
+	background-image: url(img/counter-bg.webp);
+}
+.no-webp #counter_area{	
+	background-image: url(img/counter-bg.jpg);
+}
 #counter_area{	
 	position: relative;
 	color: #fff;
 	padding: 100px 0 70px;
-	background-image: url(img/counter-bg.webp);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -777,8 +797,13 @@ ul {
 
 /*----- Resume css -----*/
 
-#resume_area{
+.webp #resume_area{
 	background-image: url(img/resume-bg.webp);
+}
+.no-webp #resume_area{
+	background-image: url(img/resume-bg.png);
+}
+#resume_area{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -933,9 +958,14 @@ ul {
 
 /*----- Blog -----*/
 
-#blog_area{	
+.no-webp #blog_area {
+	background-image: url(img/service-bg.png);
+}
+.webp #blog_area{	
 	background-image: url(img/service-bg.webp);
-	background-repeat: no-repeat;
+}
+#blog_area{	
+		background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 180px;
 	padding-bottom: 170px;
