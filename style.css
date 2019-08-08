@@ -446,6 +446,16 @@ ul {
 	padding-top: 5%;
 	padding-right: 10%;
 }
+@media (max-width: 767px) {
+	.about_content {
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	.about_content > p {
+		text-align: center;
+	}
+}
+
 .about_title{
 	margin-bottom: 20px;
 	font-size: 30px;
@@ -1054,6 +1064,21 @@ ul {
     color:#e9204f;
 }
 .single_post .post-description{
+}
+
+@media (max-width: 767px) {
+	.single_post .post-description{
+		max-height: 60px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.single_post .blog_content {
+		min-height: auto;
+	}
+	.single_post .post-img {
+		display: none;
+	}
 }
 
 .post_btn_area{
