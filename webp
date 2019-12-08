@@ -1,0 +1,1 @@
+cwebp -q 80 img/$1.png -o img/$1.webp

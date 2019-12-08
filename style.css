@@ -337,11 +337,12 @@ ul {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	background-color: #fcfdff;
+	/* background-color: #fcfdff; */
 }
 .banner-image{
 	position: relative;
-	bottom: -100px;
+	bottom: -205px;
+	visibility: hidden;
 	display: block;
 	z-index: 9;
 }
@@ -360,6 +361,13 @@ ul {
 	height: 550px;
 	z-index: -9;
 }
+video {
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	top: 180px;
+	left: 0;
+}
 #home_banner_area{
 	height: 735px;
 }
@@ -374,11 +382,14 @@ ul {
 	margin-top: 72px;
 	margin-bottom: 0;
 	line-height: 70px;
+}
+.slider_content h1 span.slider-title {
 	text-transform: capitalize;
 	color: #e9204f;
 }
-.slider_content h1 span{
-	color: #333;
+
+.slider_content h1 span.slider-subtitle{
+	color: #aeaeae;
 }
 .banner_img{
 	position: absolute;
