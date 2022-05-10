@@ -111,7 +111,7 @@
 							
 							<div class="col-md-7 col-sm-12 col-xs-12">
 								<div class="slider_content">
-									<h1><span class="slider-title">Hello I'm Adam.</span><br> <span class="slider-subtitle">I write code, and speak about it</span>
+									<h1><span class="slider-title">Hello,<br/>I'm Adam.</span><br> <span class="slider-subtitle"></span>
 										<!-- <span class="typed" data-elements="An Open Sourcerer, A Public Speaker, A Web GDE, A Software Developer"></span> -->
 									</h1>
 								</div>
@@ -134,12 +134,9 @@
 						<div class="about_content">													
 							<h2 class="about_title">About Me</h2>																					
 							<p>
-									I'm a web developer and consultant, web GDE, and author of open source libraries.
-									I co-founded 500Tech, a company that specializes in frontend technologies.
+									I'm a hands-on CTO at Covver, a web GDE, and author of open source libraries.
+									I previously co-founded 500Tech, a company that specializes in frontend technologies, and event handler, the company behind many tech conferences in Israel.
 									I love coding, and love speaking about code.
-									I'm very involved in the community, and part of the organizers of the Angular & React meetups and conferences in Israel.
-									
-
 							</p>						
 							<div class="footer_social_icons">
 								<ul>
@@ -168,84 +165,7 @@
 		</section>
 		<!-- End About Area -->
 		
-				
-		<!-- Start Service Area -->
-		<section id="open_source_area" class="section_padding">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-xs-12 text-center">
-						<div class="section_title ">		
-							<h2>My Open Source</h2>							
-							<p>I love making tools for developers</p>
-						
-						</div>
-					</div>
-				</div>
-					
-				<div class="row">
-					<div class="service_details text-left wow fadeIn">
-						<div class="col-md-4 col-sm-6">
-							<div class="serviceBox">
-								<a href="https://github.com/500tech/angular-tree-component" target="_blank">
-									<picture class="tree-icon">
-										<source srcset="img/tree.webp" type="image/webp">
-										<source srcset="img/tree.png" type="image/png"> 
-										<img src="img/tree.png" alt="Tree">
-									</picture>
-									<div class="ser_content">
-										<h3 class="title">Angular Tree Component</h3>
-										<p class="description">
-											A simple yet powerful tree component for Angular
-										</p>
-									</div>
-								</a>
-							</div>
-						</div><!-- End Col -->					
-
-						<div class="col-md-4 col-sm-6">
-							<div class="serviceBox">
-								<a href="https://github.com/mobxjs/mobx-angular" target="_blank">
-									<picture>
-										<source srcset="img/mobx.webp" type="image/webp">
-										<source srcset="img/mobx.png" type="image/png"> 
-										<img src="img/mobx.png" alt="Tree">
-									</picture>
-									<div class="ser_content">
-										<h3 class="title">Mobx Angular</h3>
-										<p class="description">
-											Official MobX connector to Angular
-										</p>
-									</div>	
-								</a>
-							</div>
-						</div><!-- End Col -->						
-						
-						<div class="col-md-4 col-sm-6">
-							<div class="serviceBox">
-								<a href="https://github.com/reusablejs/reusable" target="_blank">
-									<picture>
-										<source srcset="img/reusable.webp" type="image/webp">
-										<source srcset="img/reusable.png" type="image/png"> 
-										<img src="img/reusable.png" alt="Tree">
-									</picture>
-									<div class="ser_content">
-										<h3 class="title">Reusable</h3>
-										<p class="description">
-											Reusable is a library for state management using React hooks
-										</p>
-									</div>	
-								</a>
-							</div>
-						</div><!-- End Col -->										
-					</div>
-				</div>
-			</div>
-
-		</section>
-		<!-- End Service Area -->
-		
-
-		<!-- Start Blog Area -->
+		<!-- Start Talks Area -->
 		<section id="talks_area" class="section_padding">
 			<div class="container">
 				<div class="row">
@@ -262,6 +182,34 @@
 				</div>
 				
 				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn">
+						<div class="single_post">
+							<a href="https://www.youtube.com/watch?v=nJh1E0FBsus"  target="_blank">
+								<div class="post-img">
+									<picture>
+										<img src="img/talks/reactquery.png" alt="Tree">
+									</picture>
+								</div>
+							</a>
+								
+							<div class="blog_content">
+								<ul class="post-bar">
+									<li class="post-date"><i class="fa fa-calendar"></i>Jan, 2022</li>
+									<li class="post-date"><a href="https://www.youtube.com/watch?v=nJh1E0FBsus" target="_blank">YouTube</a></li>
+								</ul>
+								<h5 class="post-title"><a href="https://www.youtube.com/watch?v=nJh1E0FBsus" target="_blank">Migrating from state management to react-query. I’m sorry, what?! </a></h5>
+								<p class="post-description">
+									It's time to admit - we were wrong.
+									State management solutions are great, but unfitting for server-side data. Server-side data needs special care, like async behaviour built-in, caching, deduping, refetching, loading states, error states, pagination, and more.
+									And us - we kept struggling with state management solutions and re-invented the wheel.
+									The good news is that now we have react-query. And even better - we have hooks, so combining server and client state is easier than ever.
+									Let's explore this new architecture based on react-query, together, and learn how we can benefit from its flexibility and simplicity.
+
+								</p>							
+							</div>
+						</div>
+					</div>	<!-- End Col -->		
+					
 					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeIn">
 						<div class="single_post">
 							<a href="https://www.youtube.com/watch?v=waALzgnZnBo"  target="_blank">
@@ -453,7 +401,84 @@ This talk is about update queues, batching, eager and lazy updates, and some oth
 
 			</div>
 		</section>
-		<!-- End Blog Area -->
+		<!-- End Talks Area -->
+
+				
+		<!-- Start Open Source Area -->
+		<section id="open_source_area" class="section_padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-xs-12 text-center">
+						<div class="section_title ">		
+							<h2>My Open Source</h2>							
+							<p>I love making tools for developers</p>
+						
+						</div>
+					</div>
+				</div>
+					
+				<div class="row">
+					<div class="service_details text-left wow fadeIn">
+						<div class="col-md-4 col-sm-6">
+							<div class="serviceBox">
+								<a href="https://github.com/500tech/angular-tree-component" target="_blank">
+									<picture class="tree-icon">
+										<source srcset="img/tree.webp" type="image/webp">
+										<source srcset="img/tree.png" type="image/png"> 
+										<img src="img/tree.png" alt="Tree">
+									</picture>
+									<div class="ser_content">
+										<h3 class="title">Angular Tree Component</h3>
+										<p class="description">
+											A simple yet powerful tree component for Angular
+										</p>
+									</div>
+								</a>
+							</div>
+						</div><!-- End Col -->					
+
+						<div class="col-md-4 col-sm-6">
+							<div class="serviceBox">
+								<a href="https://github.com/mobxjs/mobx-angular" target="_blank">
+									<picture>
+										<source srcset="img/mobx.webp" type="image/webp">
+										<source srcset="img/mobx.png" type="image/png"> 
+										<img src="img/mobx.png" alt="Tree">
+									</picture>
+									<div class="ser_content">
+										<h3 class="title">Mobx Angular</h3>
+										<p class="description">
+											Official MobX connector to Angular
+										</p>
+									</div>	
+								</a>
+							</div>
+						</div><!-- End Col -->						
+						
+						<div class="col-md-4 col-sm-6">
+							<div class="serviceBox">
+								<a href="https://github.com/reusablejs/reusable" target="_blank">
+									<picture>
+										<source srcset="img/reusable.webp" type="image/webp">
+										<source srcset="img/reusable.png" type="image/png"> 
+										<img src="img/reusable.png" alt="Tree">
+									</picture>
+									<div class="ser_content">
+										<h3 class="title">Reusable</h3>
+										<p class="description">
+											Reusable is a library for state management using React hooks
+										</p>
+									</div>	
+								</a>
+							</div>
+						</div><!-- End Col -->										
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- End Open Source Area -->
+		
 
 	<!-- Start Testmonial Area -->
 	<section id="quotes_area" class="section_padding">
